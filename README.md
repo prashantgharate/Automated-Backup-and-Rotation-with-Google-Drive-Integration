@@ -187,5 +187,3 @@ echo "Test" | mail -s "Hello" your_email@gmail.com
 - `zip` / `unzip` – compress and restore
 - `msmtp` + `mail` – email reports
 ```
-
----
