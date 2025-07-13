@@ -1,0 +1,8 @@
+# Daily at 2 AM
+0 2 * * * /home/ubuntu/backup_project/daily_backup.sh
+
+# Weekly on Sunday at 3 AM
+0 3 * * 0 /home/ubuntu/backup_project/weekly_backup.sh
+
+# Monthly on 1st at 4 AM
+0 4 1 * * /home/ubuntu/backup_project/monthly_backup.sh
